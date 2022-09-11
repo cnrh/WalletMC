@@ -4,9 +4,41 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wallet.minehut.gg</title>
     </head>
+    <section>
+        <div class="text "><a href="https://discord.gg/PwbdaWrrT3">Soon</div></a>
+    </section>
     <body>
-        Hello World
+        <style>
+
+            div.text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                background: linear-gradient(-45deg, #552586, #6A359C, #804FB3, #9969C7);
+                background-size: 300%;
+                font-family: "Lucida Console", "Courier New", monospace;
+                font-weight: 100;
+                font-size: 5vw;
+                letter-spacing: -5px;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: animated_text 3s ease-in-out infinite;
+                -moz-animation: animated_text 3s ease-in-out infinite;
+                -webkit-animation: animated_text 3s ease-in-out infinite;
+            }
+
+            @keyframes animated_text {
+                0% { background-position: 0px 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0px 50%; }
+            }
+
+            body {
+                background-color: rgb(44 47 51)
+            }
+        </style>
     </body>
 </html>
